@@ -1,0 +1,5 @@
+Exception ins python:
+
+1. try,except and finally loops are called as exceptions.
+2. exception is runtime(execution). it may or may not occur
+3. Error is compile time.

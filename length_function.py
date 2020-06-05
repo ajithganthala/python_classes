@@ -1,0 +1,2 @@
+len=example
+print('len')

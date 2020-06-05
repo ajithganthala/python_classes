@@ -1,0 +1,59 @@
+CREATE TABLE college ( College_id, College_Name,Numberof_students)
+CREATE TABLE Professor 
+(Professor_id, 
+Professor_Name , 
+College_id, 
+Joining_Date, 
+Speciality , 
+Salary , 
+Experience )
+Question 1: Write function to Connect to the database
+def getDbConnection():
+    #code to Get Database connection
+
+def closeDbConnection(connection):
+    #Code Close Database connection
+def printDbVersion(Connection):
+	#code to print Db version
+
+Question 2: Read given College and Professor Information 
+
+def readCollegeDetails(College_Id):
+    #Read data from college table
+
+def readProfessorDetails(Professor_Id):
+    # Read data from Professor table
+
+print("Start of a Python Database Programming Exercise\n\n")
+
+readCollegeDetails(2)
+readProfessorDetails(105)
+
+print("End of a Python Database Programming Exercise\n\n")
+
+
+Start of a Python Database Programming Exercise
+
+Printing College record
+
+College Id: =  2
+College Name: =  Aditi
+Number of Students:  =  400 
+
+Printing Professor record
+
+Professor Id: =  105
+Professor Name: =  Linda
+College Id: =  3
+Joining Date: =  2004-06-04
+Speciality: =  Data Science
+Salary: =  420000
+Experience:  =  5
+
+
+
+End of a Python Database Programming Exercise
+
+INSERT INTO `college`.`clgdata` (`clg_id`, `clg_name`, `no_of_stndts`) VALUES ('100236', 'JNTU', '10030');
+
+
